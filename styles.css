@@ -1,1 +1,39 @@
 /*  your css code here. If applicable */
+body {
+  background-color: #cccccc;
+  padding-inline: 1rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.player_one,
+.player_two {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background: white;
+}
+.player_one {
+  width: calc(100% - 2rem);
+  margin-block: 1rem;
+  text-align: left;
+  row-gap: 10px;
+}
+.player_two {
+  width: max-content;
+  margin: auto;
+  align-items: center;
+  row-gap: 20px;
+}
+span {
+  align-self: baseline;
+}
+audio {
+  display: block;
+  width: 100%;
+}
