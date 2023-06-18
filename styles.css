@@ -1,42 +1,40 @@
 body {
-  background-color: #cccccc;
+  background-color: rgb(204, 204, 204);
   padding-inline: 1rem;
   box-sizing: border-box;
+  /* text-align: center; */
+}
+h1 {
   text-align: center;
 }
 a {
-  text-decoration: none;
+  text-decoration-line: none;
   color: #000;
 }
 ul {
-  list-style: none;
   padding: 0;
+}
+li {
+  list-style-type: none;
 }
 .player_one,
 .player_two {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
-  padding: 2rem 1rem;
   border: 1px solid #000;
-  border-radius: 10px;
-  background: white;
 }
 .player_one {
   width: calc(100% - 2rem);
   margin-block: 1rem;
-  text-align: left;
-  row-gap: 10px;
 }
 .player_two {
   width: max-content;
   margin: auto;
-  align-items: center;
   row-gap: 20px;
 }
-span {
-  align-self: baseline;
-}
 audio {
-  display: block;
   width: 100%;
 }
